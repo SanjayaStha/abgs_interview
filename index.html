@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <button class="btn">Button</button>
+
+        <div id="div1" class="box">Hello</div> <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <label for="mobile">Mobile:
+        <input type="radio" name="choice" id="mobile" value="mobile" checked>
+        </label>
+
+        <label for="pc">PC/Laptop:
+        <input id="pc" type="radio" name="choice" value="pc">
+        </label>
+        
+        <label for="tablet">Tablet:
+        <input id="tablet" type="radio" name="choice" value="tablet">    
+        </label>
+        
+        <br>
+
+        <select id="mobile-select" class="hidden"  name="os">
+            <option value="select" selected value="os"> Operating System Used</option>
+            <option value="ios">IOS</option>
+            <option value="android">Android</option>
+        </select>
+
+        <select id="pc-select" class="hidden"  name="os">
+            <option value="select" selected value="os"> Operating System Used</option>
+            <option value="windows">Windows</option>
+            <option value="mac">MAC</option>
+            <option id="linux" value="linux">Linux</option>
+        </select>
+
+        <select id="tablet-select" class="hidden" name="os">
+            <option value="select" selected value="os"> Operating System Used</option>
+            <option value="blackberry">Blacberry</option>
+            <option value="phoneix">Phoneix</option>
+        </select>
+
+        <br>
+        <br>
+
+        <script src="index.js"></script>
+    </body>
+</html>
